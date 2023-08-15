@@ -10,6 +10,8 @@ As a user:
 
 -I should be able to log in/sign up to an account
 
+-Watch videos hosted on the site
+
 -"Follow" channels and filter videos to only display from channels I follow
 
 -"Like" videos and filter videos to only display Liked videos
