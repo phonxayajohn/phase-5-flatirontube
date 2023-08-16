@@ -1,6 +1,9 @@
 # phase-5-flatirontube
 
 Wireframe: https://wireframe.cc/p9c6E8
+DB DIagram: https://dbdiagram.io/d/64dbfade02bd1c4a5ed41ac0
+
+![DB Diagram](chrome_nX0G9mAXWB.png)
 
 Phase 5 Project for FlatIron School
 
