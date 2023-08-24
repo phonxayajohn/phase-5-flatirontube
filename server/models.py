@@ -21,6 +21,12 @@ class User(db.Model, SerializerMixin):
     serialize_rules = ("-like.user", "-watch_history.user", "-following.user", "-comment.user")
     
     # Add Validations
+    @validates('username')
+    def validates_username(self, key, username):
+        if not 3 <= len(username) <= 12:
+            raise ValueError("Username must be between 3 and 12 characters")
+        return username
+    
 class Like(db.Model, SerializerMixin):
     __tablename__ = 'likes'
 
