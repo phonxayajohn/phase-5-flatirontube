@@ -21,6 +21,7 @@ const NavBar = () => (
       </Box>
     </Link>
     <SearchBar />
+    <button className='sign-in-btn'>Sign In</button>
   </Stack>
 )
 
