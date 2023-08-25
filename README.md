@@ -11,20 +11,20 @@ Phase 5 Project for FlatIron School
 
 As a user: 
 
--I should be able to log in/sign up to an account
+-I should be able to log in/sign up to an account []
 
--Watch videos hosted on the site
+-Watch videos hosted on the site [X]
 
--"Follow" channels and filter videos to only display from channels I follow
+-"Follow" channels and filter videos to only display from channels I follow []
 
--"Like" videos and filter videos to only display Liked videos
+-"Like" videos and filter videos to only display Liked videos []
 
--Filter videos via categories
+-Filter videos via categories [X]
 
--Search videos for keywords in titles
+-Search videos for keywords in titles [X]
 
--View watch history
+-View watch history []
 
--Add a comment to videos
+-Add a comment to videos []
 
--Upload videos via video link
+-Upload videos via video link []
