@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { logo } from '../../utils/constants'
 import SearchBar from '../SearchBar/SearchBar'
 
-// replace Logo with FlatIron logo??
+
 const NavBar = () => (
   <Stack
     direction="row"

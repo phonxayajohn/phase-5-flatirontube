@@ -49,6 +49,15 @@ class CommentsById(Resource):
         return make_response({"error": "comment not found"}, 404)
 api.add_resource(CommentsById, "/comments/<int:id>")
 
+class Login(Resource):
+
+    def get(self):
+        pass
+
+    def post(self):
+        pass
+
+api.add_resource(Login, "/login")
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
