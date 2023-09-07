@@ -40,8 +40,26 @@ class Videos(Resource):
         
         except Exception as e:
             return make_response({'message': str(e)}, 500)
-api.add_resource(Videos, "/videos")
 
+class VideosById(Resource):
+    def get(self, id):
+        video = Video.query.filter_by(id=id).first()
+
+        if video:
+            
+            video_data = {
+                'id': video.id,
+                'title': video.title,
+                'url': video.url,
+                'timestamp': video.timestamp,
+                'thumbnail': video.thumbnail
+            }
+            return make_response(jsonify(video_data), 200)
+        
+        return make_response({"error": "Video not found"}, 404)
+
+api.add_resource(Videos, "/videos")
+api.add_resource(VideosById, "/videos/<int:id>")
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)

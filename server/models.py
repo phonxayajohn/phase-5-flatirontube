@@ -12,3 +12,16 @@ class Video(db.Model):
     url = db.Column(db.String)
     timestamp = db.Column(db.String)
     thumbnail = db.Column(db.String)
+
+class Channel(db.Model):
+    pass
+# Videos should have a Channel ID, Channel should have Channel Img
+
+class Category(db.Model):
+    pass
+# Videos should have a Category ID and Categories should have a Video ID
+
+class Users(db.Model):
+    pass
+# Users should be able to sign in or register. Signed in Users should be able to "Like" a video 
+ 
